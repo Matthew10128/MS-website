@@ -1,0 +1,160 @@
+body {
+  background-image: linear-gradient(to bottom white, grey);
+  color: white;
+  font-family: "Open Sans";
+}
+
+.main-section {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("../images/Pink\ Rose\ \(1\).png"),
+    url("../images/Umbre\ Background\ \(1\).jpg");
+  background-position: right top, left top;
+  background-repeat: no-repeat;
+  text-align: center;
+  overflow: visible;
+  margin-top: 40px;
+}
+
+.MS-Logo {
+  margin-top: -30px;
+}
+
+.main-section > p {
+  color: white;
+  font-family: "Open Sans";
+  font-size: 24px;
+}
+
+.main-section__content {
+  margin-bottom: 50px;
+}
+
+.requiem {
+  text-align: center;
+}
+
+.requiem > span {
+  font-family: "Open Sans";
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.requiem-time {
+  padding: 10px;
+  gap: 10px;
+  font-family: "Open Sans";
+  color: black;
+  margin-bottom: 30px;
+}
+
+.requiem-time > div {
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.requiem-time > div:first-child {
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
+.requiem-time > div > span {
+  text-transform: uppercase;
+}
+
+.requiem-time > div > p {
+  font-weight: 100;
+  color: grey;
+}
+
+.main-section__image {
+  max-width: 100%;
+}
+
+.rememberance {
+  grid-template-rows: 300px 300px 300px 300px 300px;
+}
+
+.rememberance__tiles {
+  color: white;
+  background-image: url("../images/P_V\ bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 550px;
+  background-color: grey;
+  background-blend-mode: luminosity;
+}
+
+.rememberance__tiles > h2 {
+  padding-top: 38%;
+  text-transform: uppercase;
+}
+
+.rememberance__tiles:nth-child(6) > h2 {
+  padding-top: 20%;
+  text-transform: uppercase;
+}
+
+.rememberance__tiles:nth-child(2) {
+  background-image: url("../images/Photo\ share\ bg\ \(1\).jpg");
+}
+
+.rememberance__tiles:nth-child(3) {
+  background-image: url("../images/Blog\ bg\ \(1\).jpg");
+  color: black;
+}
+
+.rememberance__tiles:nth-child(4) {
+  background-image: url("../images/Order\ of\ mass\ bg\ \(1\).jpg");
+}
+
+.rememberance__tiles:nth-child(5) {
+  background-image: url("../images/Memoriam\ bg\ \(1\).jpg");
+  color: grey;
+}
+
+.rememberance__tiles:nth-child(6) {
+  background-image: none;
+  background-color: white;
+  color: grey;
+  text-align: center;
+}
+
+.rememberance__tiles:nth-child(6) > button {
+  background-color: red;
+  border-radius: 45px;
+  padding: 20px;
+  color: white;
+  font-family: "Open Sans", sans-serif, Arial;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.youtube {
+  margin-left: 10px;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: rgba(248, 247, 247, 0.986);
+  background-position: left top;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer__content > p {
+  font-size: 20px;
+  color: rgb(197, 189, 189);
+  font-weight: 100;
+}
+
+.MS-Logo__bottom {
+  margin: 0 20px;
+}
+
+.White-rose__bottom {
+  max-width: 100%;
+}

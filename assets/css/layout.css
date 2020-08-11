@@ -1,0 +1,12 @@
+.container {
+  max-width: 335px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
